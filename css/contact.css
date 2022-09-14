@@ -1,12 +1,23 @@
 .contact {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 95vh;
     padding: 2rem;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.main_contact {
+    position: relative;
+    top: 80px;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: 700;
+    color: aqua;
 }
 
 .contact ul {
@@ -170,7 +181,7 @@
 .contact .btn {
     padding: 0.6rem 1.3rem;
     font-size: large;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     border: 2px solid #fafafa;
     font-size: 0.95rem;
     color: #000000;
@@ -180,6 +191,9 @@
     cursor: pointer;
     transition: 0.3s;
     margin: 0;
+    position: relative;
+    bottom: -30px;
+    right: -100px;
 }
 
 .contact .btn:hover {
@@ -437,6 +451,18 @@
         .contact {
           padding: 1.5rem;
         }
+        .main_contact {
+        position: relative;
+        top: 30px;
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 40px;
+        font-weight: 700;
+        color: aqua;
+        }
+
 
         .contact .contact-info:before {
           display: none;
@@ -478,6 +504,8 @@
 
         .contact .btn {
           padding: 0.45rem 1.2rem;
+          position: relative;
+          top: 10px;
         }
         #name {
           width: 300px;
