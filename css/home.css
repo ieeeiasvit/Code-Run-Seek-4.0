@@ -180,3 +180,9 @@
   margin: 4px 8px;
   cursor: pointer;
 }
+@media (max-width: 420px) {
+    .home .sub-content {
+        font-size: 25px;
+    }
+
+}
