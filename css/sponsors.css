@@ -1,19 +1,22 @@
 .sponsorship h1 {
-    color: #00FDEF;
-    font-size: 40px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 10%;
+  color: #00fdef;
+  font-size: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10%;
 }
 
 .sponsorship .heading {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    width: max-content;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
 }
 
 .sponsorship .row {
-    text-align: center;
+  text-align: center;
+}
+.sponsorship {
+  display: none;
 }
