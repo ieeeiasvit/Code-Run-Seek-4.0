@@ -1,3 +1,10 @@
+.time-description {
+  display: flex;
+  color: white;
+  font-size: 1.5em;
+  justify-content: space-around;
+}
+
 #time {
   display: flex;
   margin: 1.5% auto;
@@ -23,6 +30,7 @@
 #time .circle .time-date {
   color: white;
   position: absolute;
+  font-size: 2em;
 }
 
 #time .circle svg {
@@ -47,6 +55,9 @@
 }
 
 @media (max-width: 878px) {
+  .time-description {
+    transform: scale(0.8);
+  }
   #time .circle {
     transform: scale(0.8);
   }
@@ -68,6 +79,10 @@
 }
 
 @media (max-width: 500px) {
+  .time-description {
+    transform: scale(1);
+    font-size: 1em;
+  }
   #time {
     transform: scale(0.6);
   }
