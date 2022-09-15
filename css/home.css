@@ -1,3 +1,9 @@
+#home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
 .home .main--box {
   display: flex;
   flex-direction: column;
@@ -117,7 +123,7 @@
 .home .content {
   display: flex;
   justify-content: center;
-  margin-top: 70px;
+  align-items: center;
   /* font-size: 5px; */
   color: #03dbc7;
   /* font-family: Josefin Sans; */
@@ -126,7 +132,7 @@
 }
 
 .home .content h1 {
-  font-size: 50px;
+  font-size: 5em;
   font-weight: 750;
 }
 
@@ -177,7 +183,7 @@
   display: flex;
   justify-content: center;
   padding: 10px 16px;
-  border-radius: 112px;
+  border-radius: 50px;
   color: black;
   background-color: #00fdef;
   font-weight: bold;
