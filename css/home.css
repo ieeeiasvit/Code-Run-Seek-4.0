@@ -85,10 +85,8 @@
   position: fixed;
   width: 100%;
   height: 5%;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10%;
+  margin: 0px;
+  padding: 1% 0.3%;
 }
 
 .home .ias {
@@ -129,6 +127,10 @@
   /* font-family: Josefin Sans; */
   text-align: center;
   font-weight: 900;
+}
+
+.home .main-logo {
+  height: 200px;
 }
 
 .home .content h1 {
@@ -194,6 +196,11 @@
 }
 
 @media (max-width: 420px) {
+  .home .main-logo {
+    height: 150px;
+    margin-bottom: 10%;
+  }
+
   .home .content h1 {
     font-size: 30px;
   }
@@ -208,9 +215,6 @@
     float: left;
     height: 7px;
     width: 7px;
-    margin-left: -5px;
-    margin-top: -25px;
-
   }
 
   .home .wie {
@@ -221,7 +225,6 @@
     float: right;
     height: 20px;
     width: 7%;
-
   }
 
 }
