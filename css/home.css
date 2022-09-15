@@ -118,11 +118,16 @@
   display: flex;
   justify-content: center;
   margin-top: 70px;
-  font-size: 110;
+  /* font-size: 5px; */
   color: #03dbc7;
   /* font-family: Josefin Sans; */
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
+}
+
+.home .content h1 {
+  font-size: 50px;
+  font-weight: 750;
 }
 
 .home .sub-content {
@@ -182,6 +187,10 @@
 }
 
 @media (max-width: 420px) {
+  .home .content h1 {
+    font-size: 30px;
+  }
+
   .home .sub-content {
     font-size: 25px;
   }
