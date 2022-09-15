@@ -11,7 +11,7 @@
 }
 
 .about .image-container {
-  width: fit-content;
+  width: 247px;
   height: fit-content;
   margin: auto;
 }
@@ -95,6 +95,11 @@
   .about .textnbutton {
     margin: 0px 10px 0px 10px;
     position: relative;
+  }
+
+  .about .image-container {
+    width: 150px;
+    height: 120px;
   }
 
   .about img {
