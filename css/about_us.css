@@ -164,3 +164,7 @@
     display: none;
   }
 }
+
+.about .textnbutton ul {
+  list-style: square;
+}
