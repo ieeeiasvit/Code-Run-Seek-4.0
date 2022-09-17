@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 5%;
 }
 
 .home .ias {
@@ -17,7 +18,6 @@
   z-index: 2;
   font-size: 50px;
   transition: all 0.4s ease-in-out;
-  position: absolute;
 }
 
 .home li {
@@ -80,23 +80,20 @@
 }
 
 .home .logo {
-  display: block;
-  float: left;
-  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
   width: 100%;
   height: 5%;
   margin: 0px;
-  padding: 1% 0.3%;
 }
 
 .home .ias {
   display: block;
-  position: fixed;
-  float: left;
-  height: 10px;
-  width: 10px;
-  margin-left: 10px;
-  margin-top: -25px;
+}
+
+.home .gravitaslogo {
+  display: block;
 }
 
 .home .ias>img {
@@ -106,11 +103,6 @@
 
 .home .wie {
   display: block;
-  position: relative;
-  right: -35px;
-  float: right;
-  height: 20px;
-  width: 10%;
 }
 
 .home .wie>img {
@@ -196,6 +188,7 @@
 }
 
 @media (max-width: 420px) {
+
   .home .main-logo {
     height: 150px;
     margin-bottom: 10%;
@@ -210,21 +203,19 @@
   }
 
   .home .ias {
-    display: block;
-    position: fixed;
-    float: left;
     height: 7px;
     width: 7px;
   }
 
+  .home .gravitaslogo {
+    height: 7px;
+  }
+
   .home .wie {
-    display: block;
-    position: relative;
-    right: 69px;
-    top: -5px;
-    float: right;
-    height: 20px;
-    width: 7%;
+  }
+
+  .home .logo img {
+    
   }
 
 }
