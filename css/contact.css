@@ -26,7 +26,7 @@
 }
 
 .contact #contactForm {
-  background: aqua;
+  background: linear-gradient(to bottom, #00FDEF 0%, #E40B60 100%);
   position: relative;
 }
 
@@ -245,7 +245,7 @@
 }
 
 .contact .title {
-  color: aqua;
+  color: #E40B60;
   font-size: xx-large;
 }
 
@@ -292,7 +292,7 @@
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: aqua;
+  background: linear-gradient(to top, #00FDEF 0%, #E40B60 100%);
   color: #fff;
   text-align: center;
   line-height: 35px;

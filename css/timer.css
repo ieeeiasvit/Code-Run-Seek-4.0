@@ -1,8 +1,8 @@
-.time-description {
-  display: flex;
+.time-part h1 {
+  text-align: center;
   color: white;
-  font-size: 1.5em;
-  justify-content: space-around;
+  font-weight: normal;
+  font-size: 1.8em;
 }
 
 #time {
@@ -79,10 +79,6 @@
 }
 
 @media (max-width: 500px) {
-  .time-description {
-    transform: scale(1);
-    font-size: 1em;
-  }
   #time {
     transform: scale(0.6);
   }

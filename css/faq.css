@@ -16,7 +16,7 @@
 }
 
 .faq .container {
-  background: #03dbc7;
+  background: linear-gradient(135deg, #00FDEF 0%, #E40B60 100%);
   display: flex;
   justify-content: center;
   width: 65%;
