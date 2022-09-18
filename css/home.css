@@ -16,7 +16,6 @@
   transform: translateX(237px);
   transition: all 0.4s ease-in-out;
   z-index: 2;
-  font-size: 50px;
   transition: all 0.4s ease-in-out;
 }
 
@@ -84,25 +83,20 @@
   justify-content: space-between;
   position: absolute;
   width: 100%;
-  height: 5%;
+  height: fit-content;
   margin: 0px;
+  padding: 0px 0.5%;
 }
 
-.home .ias {
+.home .ias, .gravitaslogo, .wie {
   display: block;
-}
-
-.home .gravitaslogo {
-  display: block;
+  height: fit-content;
+  width: fit-content;
 }
 
 .home .ias>img {
   width: 80px;
   height: 60px;
-}
-
-.home .wie {
-  display: block;
 }
 
 .home .wie>img {
@@ -136,12 +130,6 @@
   margin-top: 10px;
   font-size: 36px;
 }
-
-/*
-.home .span-text {
-    margin-right: 6px;
-    margin-left: 6px;
-}*/
 
 .home .time-text {
   color: #03dbc7;
@@ -202,20 +190,12 @@
     font-size: 25px;
   }
 
-  .home .ias {
-    height: 7px;
-    width: 7px;
+  .home .logo .ias img, .home .logo .wie img {
+    width: 60px;
+    height: 45px;
   }
 
-  .home .gravitaslogo {
-    height: 7px;
+  .home .logo .gravitaslogo img {
+    height: 45px;
   }
-
-  .home .wie {
-  }
-
-  .home .logo img {
-    
-  }
-
 }
