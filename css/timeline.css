@@ -1,26 +1,26 @@
-.timeline {
+.timeline .big-container {
   transform: scale(0.7);
-  display: none;
 }
 
-.timeline h1 {
-  border: 30px;
-  color: #00fdef;
-  font-size: 40px;
+.timeline .main {
+  position: relative;
+  top: 10px;
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 700;
   text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  font-weight: 700;
+  color: aqua;
 }
 
 .timeline .big-container {
   margin: 200px;
   justify-content: center;
   align-items: center;
-
   margin: auto;
-
   height: 900px;
   width: 1025px;
+  margin-top: -100px;
 }
 
 .timeline .left-section {
@@ -57,10 +57,6 @@
 }
 
 @media (max-width: 1024px) {
-  .timeline {
-    transform: scale(0.7);
-  }
-
   .timeline .big-container {
     margin: 200px;
     justify-content: center;
@@ -70,6 +66,7 @@
     width: 100%;
     position: relative;
     left: -40px;
+    margin-top: -100px;
   }
 
   .timeline .left-section {
@@ -87,9 +84,6 @@
 }
 
 @media (max-width: 878px) {
-  .timeline {
-    transform: scale(0.7);
-  }
 
   .timeline .big-container {
     margin: 200px;
@@ -100,6 +94,7 @@
     width: 100%;
     position: relative;
     left: -60px;
+    margin-top: -100px;
   }
 
   .timeline .left-section {
@@ -117,9 +112,6 @@
 }
 
 @media (max-width: 770px) {
-  .timeline {
-    transform: scale(0.7);
-  }
 
   .timeline .big-container {
     margin: 200px;
@@ -130,6 +122,7 @@
     width: 100%;
     position: relative;
     left: -40px;
+    margin-top: -100px;
   }
 
   .timeline .left-section {
@@ -147,9 +140,6 @@
 }
 
 @media (max-width: 654px) {
-  .timeline {
-    transform: scale(0.7);
-  }
 
   .timeline .big-container {
     margin: 200px;
@@ -160,6 +150,7 @@
     width: 100%;
     position: relative;
     left: -40px;
+    margin-top: -100px;
   }
 
   .timeline .left-section {
@@ -177,7 +168,7 @@
 }
 
 @media (max-width: 420px) {
-  .timeline {
+  .timeline .big-container {
     transform: scale(0.6);
   }
 
@@ -190,6 +181,7 @@
     width: 100%;
     position: relative;
     left: -40px;
+    margin-top: -150px;
   }
 
   .timeline .left-section {
@@ -207,10 +199,6 @@
 }
 
 @media (max-width: 375px) {
-  .timeline {
-    transform: scale(0.6);
-  }
-
   .timeline .big-container {
     margin: 200px;
     justify-content: center;
@@ -220,6 +208,8 @@
     width: 100%;
     position: relative;
     left: -40px;
+    transform: scale(0.6);
+    margin-top: -150px;
   }
 
   .timeline .left-section {
@@ -233,5 +223,18 @@
     /* padding-left: 10px;
         padding-right: 1px; */
     font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .timeline .main {
+    top: 5px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .timeline .main {
+    font-size: 20px;
   }
 }

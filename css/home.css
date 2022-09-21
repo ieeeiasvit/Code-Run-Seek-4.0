@@ -172,6 +172,9 @@
 }
 
 @media (max-width: 420px) {
+  .home .time-detail {
+    font-size: 18px;
+  }
 
   .home .main-logo {
     height: 150px;
