@@ -1,4 +1,5 @@
 .round1 {
+  text-align: center;
 }
 
 .round1 .main {
@@ -20,13 +21,27 @@
   margin: auto;
 
 }
+
+.round1 .sbbtn {
+  font-size: x-large;
+  padding: 10px 16px;
+  border-radius: 112px;
+  color: black;
+  background-color: #00fdef;
+  font-size: 20px;
+  margin: 4px 8px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
 .round1 .flip
 {
     display : flex ;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    padding: 10px 2px;
+    padding: 15px 0px;
 } 
 .round1 .card {
     background-color: transparent;
